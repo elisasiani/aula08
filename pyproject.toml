@@ -38,9 +38,6 @@ addopts = '-p no:warnings'
 
 [tool.taskipy.tasks]
 run = 'fastapi dev app.py'
-
-[tool.taskipy.tasks]
-run = 'fastapi dev app.py’
 test = 'pytest -s -x --cov=. -vv'
 
 [build-system]
